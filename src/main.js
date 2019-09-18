@@ -30,6 +30,8 @@ Vue.use(LightBootstrap);
 
 // configure router
 const router = new VueRouter({
+  // mode: "history",
+  // base: "https://boy22200011.github.io/myvueforgitpages",
   routes, // short for routes: routes
   linkActiveClass: "nav-item active",
   scrollBehavior: to => {
