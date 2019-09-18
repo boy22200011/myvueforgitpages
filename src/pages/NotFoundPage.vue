@@ -1,20 +1,34 @@
 <template>
   <div class="contact-us full-screen">
-    <nav class="navbar navbar-ct-default" role="navigation-demo">
+    <nav
+      class="navbar navbar-ct-default"
+      role="navigation-demo"
+    >
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#navigation-example-2"
+          >
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <router-link :to="{path:'/'}" class="navbar-brand">Site title</router-link>
+          <router-link
+            :to="{path:'/'}"
+            class="navbar-brand"
+          >Site title</router-link>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navigation-example-2">
+        <div
+          class="collapse navbar-collapse"
+          id="navigation-example-2"
+        >
           <ul class="nav navbar-nav navbar-right">
             <li>
               <router-link :to="{path:'/'}">Home</router-link>
@@ -52,8 +66,14 @@
         <div class="copyright text-center">
           &copy; Coded with
           <i class="fa fa-heart heart"></i> by
-          <a href="https://binarcode.com" target="_blank">BinarCode</a>.
-          Designed by <a href="https://www.creative-tim.com/?ref=pdf-vuejs" target="_blank">Creative Tim</a>.
+          <a
+            href="https://binarcode.com"
+            target="_blank"
+          >BinarCode</a>.
+          Designed by <a
+            href="https://www.creative-tim.com/?ref=pdf-vuejs"
+            target="_blank"
+          >Creative Tim</a>.
         </div>
       </div>
     </footer>
@@ -61,6 +81,5 @@
 </template>
 
 <script>
-  export default {}
-
+export default {};
 </script>
