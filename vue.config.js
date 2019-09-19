@@ -9,7 +9,7 @@ module.exports = {
   publicPath:
     process.env.NODE_ENV === 'production' ? '/myvueforgitpages/' : '/',
   chainWebpack: config => {
-    config.resolve.alias.set('utils', resolve('src/cores/utils.js')) // 有實體檔案 但是想簡寫的路由
+    config.resolve.alias.set('utils', resolveSrc('src/cores/utils.js')) // 有實體檔案 但是想簡寫的路由
   },
   lintOnSave: false,
   configureWebpack: {
